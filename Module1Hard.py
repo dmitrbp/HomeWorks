@@ -6,6 +6,6 @@ dict1 = dict(zip(sorted(list(students)), grades_mid1))
 print(dict1)
 # variant 2
 grades_mid2 = [sum(g)/len(g) for g in grades]
-dict2 = dict(zip(sorted(list(students)), grades_mid2))
+dict2 = dict(zip(sorted(students), grades_mid2))
 print(dict2)
 
